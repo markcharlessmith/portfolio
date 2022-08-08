@@ -1,0 +1,119 @@
+.mcs__footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: var(--color-footer);
+}
+
+.mcs__footer-heading {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.mcs__footer-heading h1 {
+  font-family: var(--font-family);
+  font-weight: 800;
+  font-size: 62px;
+  line-height: 75px;
+  text-align: center;
+  letter-spacing: -0.04rem;
+}
+
+.mcs__footer-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 100%;
+  text-align: left;
+}
+
+.mcs__footer-links div {
+  width: 250px;
+}
+
+.mcs__footer-links_logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.mcs__footer-links_logo img {
+  min-width: 75px;
+  max-width: 150px;
+}
+
+.mcs__footer-links_logo p {
+  font-family: var(--font-family);
+  font-size: 12px;
+  line-height: 14px;
+  color: #FFFFFF;
+}
+
+.mcs__footer-links_div {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.mcs__footer-links_div h4 {
+  font-family: var(--font-family);
+  font-size: 14px;
+  line-height: 16px;
+  color: #FFFFFF;
+  margin-bottom: 1rem;
+}
+
+.mcs__footer-links_div p {
+  font-family: var(--font-family);
+  font-size: 12px;
+  line-height: 14px;
+  color: #FFFFFF;
+  margin: 0.5rem 0;
+  cursor: pointer;
+}
+
+.mcs__footer-copyright {
+  margin-top: 2rem;
+  text-align: center;
+  width: 100%;
+}
+
+.mcs__footer-copyright p {
+  font-family: var(--font-family);
+  font-size: 12px;
+  line-height: 14px;
+  color: #FFFFFF;
+}
+
+@media screen and (max-width: 850px) {
+  .mcs__footer-heading h1 {
+    font-size: 44px;
+    line-height: 50px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .mcs__footer-heading h1 {
+    font-size: 34px;
+    line-height: 42px;
+  }
+  .mcs__footer-links div {
+    margin: 1rem 0;
+  }
+  .mcs__footer-btn p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .mcs__footer-heading h1 {
+    font-size: 27px;
+    line-height: 38px;
+  }
+}

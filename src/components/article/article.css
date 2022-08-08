@@ -1,0 +1,72 @@
+.mcs__experience-container_article {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background: var(--color-footer);
+}
+
+.mcs__experience-container_article-image {
+  width: 100%;
+  height: 100%;
+  background: var(--color-footer);
+}
+
+.mcs__experience-container_article-image img {
+  width: 100%;
+  height: 100%;
+}
+
+.mcs__experience-container_article-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  padding: 1rem 1.5rem;
+  height: 100%;
+}
+
+.mcs__experience-container_article-content p {
+  font-family: var(--font-family);
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+  color: #FFFFFF;
+  margin-bottom: 0.5rem;
+  min-height: 50px;
+}
+
+.mcs__experience-container_article-content h3 {
+  font-family: var(--font-family);
+  font-weight: 800;
+  font-size: 28px;
+  line-height: 32px;
+  color: #FFFFFF;
+
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+
+.mcs__experience-container_text h3:hover {
+  color: #81AFDD;
+  text-decoration: underline;
+}
+
+.mcs__experience-container_article-content button {
+  font-family: var(--font-family);
+  height: 35px;
+  width: 100px;
+  border-radius: 9px;
+  background-color: #6237fa;
+  font-size: 14px;
+  font-weight: 600;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 550px) {
+  .mcs__experience-container_article-content h3 {
+    font-size: 18px;
+    line-height: 25px;
+  }
+}
