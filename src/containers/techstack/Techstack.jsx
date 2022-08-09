@@ -6,14 +6,12 @@ import './techstack.css';
 
 const Techstack = () => {
   return (
-    <div className="mcs__techstack section__margin" id="techstack"> 
+    <div className="mcs__techstack section__padding" id="techstack"> 
       <div className="mcs__techstack-heading">
         <h1 className="gradient__text">Techstack</h1>
-        </div>
-        <div className="mcs__techstack-subheading">
         <h4>Across the stack, I have worked with many different technologies to design, build, and maintain my projects.</h4>
       </div>
-      <div className="mcs__techstack-container">
+      <div className="mcs__techstack-container_group">
         <Feature title="React" text="" icon={react}/>
         <Feature title="Node/Express" text="" icon={nodejs}/>
         <Feature title="TypeScript" text="" icon={typescript}/>

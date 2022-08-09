@@ -17,7 +17,7 @@ const Navbar = () => {
           <p><a href="#techstack">Techstack</a></p>
           <p><a href="#experience">Experience</a></p>
           <p><a href={resume} download>Resume</a></p>
-          <p><a href="https://www.markcharlessmith.com">Music</a></p>
+          {/* <p><a href="https://www.markcharlessmith.com">Music</a></p> */}
         </div>
       <div className="mcs__navbar-links_icons">
         <a href="https://github.com/markcharlessmith" target="_blank" rel="noreferrer">
