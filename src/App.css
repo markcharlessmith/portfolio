@@ -84,10 +84,10 @@ a {
 
 @media screen and (max-width: 350px) {
   .section__padding {
-    padding: 4rem 2rem;
+    padding: none;
   }
 
   .section__margin {
-    margin: 4rem 2rem;
+    margin: none;
   }
 }

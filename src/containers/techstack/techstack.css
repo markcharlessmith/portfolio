@@ -49,3 +49,10 @@
     width: 30%;
   }
 }
+
+@media screen and (max-width:550px) {
+  .mcs__techstack-heading h1 {
+    font-size: 34px;
+    line-height: 42px;
+  }
+}
