@@ -30,7 +30,7 @@
   color: #FFFFFF;
   justify-content: center;
   align-items: center;
-
+  letter-spacing: -0.04em;
   margin-bottom: 2rem;
 }
 
@@ -84,5 +84,9 @@
   .mcs__experience-heading h1 {
     font-size: 34px;
     line-height: 42px;
+  }
+  .mcs__experience-subheading {
+    font-size: 12px;
+    line-height: 18px;
   }
 }

@@ -23,7 +23,7 @@
 .mcs__techstack-heading h4 {
   font-family: var(--font-family);
   color: #FFFFFF;
-  font-weight: 400;
+  font-weight: 300;
   font-size: 16px;
   line-height: 30px;
   letter-spacing: -0.04em;
@@ -54,5 +54,9 @@
   .mcs__techstack-heading h1 {
     font-size: 34px;
     line-height: 42px;
+  }
+  .mcs__techstack-heading h4 {
+    font-size: 12px;
+    line-height: 18px;
   }
 }
