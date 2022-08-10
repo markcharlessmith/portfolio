@@ -11,7 +11,7 @@ const Experience = () => {
           Experience
         </h1>
         <h4 className="mcs__experience-subheading">
-          I am a frequent contributor to the open source community.
+        I'm a software engineer working in React and Node.js/Express. I'm passionate about solving complex problems, collaborating with teams of engineers who want to work together to do great things, and blockchain technology. I'm an active contributor to the open-source community, and most recently co-created SQuriL, an open-source GraphQL schema generation and storage tool.
         </h4>
       </div>
       <div className="mcs__experience-container">
