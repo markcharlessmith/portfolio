@@ -38,12 +38,10 @@ const Navbar = () => {
         {toggleMenu && (
         <div className="mcs__navbar-menu_container scale-up-center">
           <div className="mcs__navbar-menu_container-links">
-          {/* <p><a href="#home">Home</a></p> */}
-          <p><a href="#wmcs">Skills</a></p>
-          <p><a href="#possibility">Experience</a></p>
-          <p><a href="#features">About</a></p>
-          <p><a href="#blog">Resume</a></p>
-          <p><a href="#music">Music</a></p>
+          <p><a href="#techstack">Techstack</a></p>
+          <p><a href="#experience">Experience</a></p>
+          <p><a href={resume} download>Resume</a></p>
+          {/* <p><a href="https://www.markcharlessmith.com">Music</a></p> */}
           </div>
         </div>
         )}
