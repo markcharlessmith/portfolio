@@ -46,10 +46,14 @@
 
 .mcs__experience-container_groupB {
   flex: 1;
-
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 2rem;
+}
+
+.mcs__experience-container_text p {
+  font-size: 12px;
+  font-weight: 200;
 }
 
 @media screen and (max-width: 990px) {
