@@ -59,4 +59,12 @@
     font-size: 12px;
     line-height: 18px;
   }
+  .mcs__techstack-container_skills-image img {
+    max-width: 68px;
+    max-height: 68px;
+  }
+.mcs__techstack-container_skills-header h3 {
+  font-size: 10px;
+}
+
 }
