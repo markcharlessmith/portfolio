@@ -11,9 +11,9 @@ const Footer = () => {
           <img src={mcs} alt="logo" />
           <img src={octopus} alt="octopus" />
         </div>
-       </div>
+      </div>
       <div className="mcs__footer-copyright">
-        <p>© Copyright 2022 Mark Charles Smith. All rights reserved.</p>
+        <p>© Copyright 2023 Mark Charles Smith. All rights reserved.</p>
       </div>
     </div>
   )
