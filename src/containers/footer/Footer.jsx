@@ -4,6 +4,8 @@ import mcs from '../../assets/mcs.png';
 import octopus from '../../assets/octopus.png';
 
 const Footer = () => {
+  let currentYear = new Date().getFullYear();
+
   return (
     <div className="mcs__footer section__padding">
       <div className="mcs__footer-links">
@@ -13,7 +15,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="mcs__footer-copyright">
-        <p>© Copyright 2023 Mark Charles Smith. All rights reserved.</p>
+        <p>© Copyright {currentYear} Mark Charles Smith. All rights reserved.</p>
       </div>
     </div>
   )
